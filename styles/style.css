@@ -232,9 +232,9 @@ header {
     width: 100%;
   }
 
-  /* .articles-container {
+  .articles-container {
     align-content: center;
-  } */
+  }
 
   .article {
     width: 45%;
@@ -257,10 +257,20 @@ header {
     border: none;
   }
 
+ .article {
+    margin-bottom: 40px;
+ }
+
   nav {
     display: flex;
     justify-content: center;
     padding: 10px 0px;
   }
 
+}
+
+@media print {
+  body {
+    background-color: red;
+  }
 }
